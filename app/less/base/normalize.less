@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", sans-serif;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1; /* For IE6 IE7 only */
+}
+
+
+pre {
+    &.pre-code {
+        font-size: 0;
+    }
+    code {
+        display: block;
+        font-size: 14px;
+        border-radius: 10px;
+        color: #FFF;
+        background-color: #000;
+    }
+}
+
+
