@@ -1,6 +1,6 @@
 <template>
     <main>
-        <h1>使用数据库</h1>
+        <h1>使用对象存储</h1>
     </main>
 </template>
 
@@ -13,16 +13,22 @@
             init() {
                 let db;
 
-                // 第一个参数是数据库名，第二个参数是版本号，一般从1开始
-                const openRequest = indexedDB.open('idb1', 1);
+                const openRequest = indexedDB.open('idb2', 1);
 
                 openRequest.onupgradeneeded = e => {
                     console.log("%c running onupgradeneeded", "color: blue");
+
+                    db = e.target.result;
+                    if (!db.objectStoreNames.contains('os1')) {
+                        db.createObjectStore('os1');
+                        console.log("%c create object store", "color: blue");
+                    }
                 };
 
                 openRequest.onsuccess = e => {
-                    db  = e.target.result;
+                    let db  = e.target.result;
                     console.log("%c running success", "color: green");
+                    console.dir(db.objectStoreNames);
                 };
 
                 openRequest.onerror = e => {
