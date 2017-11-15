@@ -23,7 +23,7 @@
     export default {
         data() {
             return {
-                primary_key: 'caigua@hlg.cm',
+                primary_key: '',
                 db: null,
                 person: {
                     name: '',

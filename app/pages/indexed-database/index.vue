@@ -63,6 +63,9 @@
                             },{
                                 name: '更新数据',
                                 route: '/indexed-database/operate-data/update-data'
+                            },{
+                                name: '删除数据',
+                                route: '/indexed-database/operate-data/delete-data'
                             }
                         ]
                     }
