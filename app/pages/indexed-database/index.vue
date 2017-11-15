@@ -35,6 +35,14 @@
                                 route: '/indexed-database/create-object-store/001'
                             }
                         ]
+                    },{
+                        name: '定义主键',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/indexed-database/define-primary-key/001'
+                            }
+                        ]
                     }
                 ]
             }
