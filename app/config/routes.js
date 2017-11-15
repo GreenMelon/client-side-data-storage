@@ -7,6 +7,7 @@ import Index from '../pages/index';
 
 import IndexedDB from '../pages/indexed-database/index';
 import CreateDatabase from '../pages/indexed-database/create-database/001';
+import CreateObjectStore from '../pages/indexed-database/create-object-store/001';
 
 export default [
 
@@ -15,6 +16,7 @@ export default [
 
     { path: '/indexed-database', component: IndexedDB },
     { path: '/indexed-database/create-database/001', component: CreateDatabase },
+    { path: '/indexed-database/create-object-store/001', component: CreateObjectStore },
 
     { path: '*', component: NotFound }
 

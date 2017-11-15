@@ -27,6 +27,14 @@
                                 route: '/indexed-database/create-database/001'
                             }
                         ]
+                    },{
+                        name: '使用对象存储',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/indexed-database/create-object-store/001'
+                            }
+                        ]
                     }
                 ]
             }
