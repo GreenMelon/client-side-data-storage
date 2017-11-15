@@ -12,6 +12,7 @@ import DefinePrimaryKey from '../pages/indexed-database/define-primary-key/001';
 import DefineIndex from '../pages/indexed-database/define-index/001';
 
 import CreateData from '../pages/indexed-database/operate-data/create-data';
+import ReadData from '../pages/indexed-database/operate-data/read-data';
 
 export default [
 
@@ -25,6 +26,7 @@ export default [
     { path: '/indexed-database/define-index/001', component: DefineIndex },
 
     { path: '/indexed-database/operate-data/create-data', component: CreateData },
+    { path: '/indexed-database/operate-data/read-data', component: ReadData },
 
     { path: '*', component: NotFound }
 

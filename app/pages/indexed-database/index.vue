@@ -57,6 +57,9 @@
                             {
                                 name: '创建数据',
                                 route: '/indexed-database/operate-data/create-data'
+                            },{
+                                name: '读取数据',
+                                route: '/indexed-database/operate-data/read-data'
                             }
                         ]
                     }
