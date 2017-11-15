@@ -43,6 +43,14 @@
                                 route: '/indexed-database/define-primary-key/001'
                             }
                         ]
+                    },{
+                        name: '定义索引',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/indexed-database/define-index/001'
+                            }
+                        ]
                     }
                 ]
             }
