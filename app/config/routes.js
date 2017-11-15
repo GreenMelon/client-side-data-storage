@@ -11,6 +11,8 @@ import CreateObjectStore from '../pages/indexed-database/create-object-store/001
 import DefinePrimaryKey from '../pages/indexed-database/define-primary-key/001';
 import DefineIndex from '../pages/indexed-database/define-index/001';
 
+import CreateData from '../pages/indexed-database/operate-data/create-data';
+
 export default [
 
     { path: '/', redirect: '/index' },
@@ -21,6 +23,8 @@ export default [
     { path: '/indexed-database/create-object-store/001', component: CreateObjectStore },
     { path: '/indexed-database/define-primary-key/001', component: DefinePrimaryKey },
     { path: '/indexed-database/define-index/001', component: DefineIndex },
+
+    { path: '/indexed-database/operate-data/create-data', component: CreateData },
 
     { path: '*', component: NotFound }
 
