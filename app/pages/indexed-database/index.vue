@@ -51,6 +51,14 @@
                                 route: '/indexed-database/define-index/001'
                             }
                         ]
+                    },{
+                        name: '操作数据',
+                        instances: [
+                            {
+                                name: '创建数据',
+                                route: '/indexed-database/operate-data/create-data'
+                            }
+                        ]
                     }
                 ]
             }
