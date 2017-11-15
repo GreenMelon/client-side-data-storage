@@ -60,6 +60,9 @@
                             },{
                                 name: '读取数据',
                                 route: '/indexed-database/operate-data/read-data'
+                            },{
+                                name: '更新数据',
+                                route: '/indexed-database/operate-data/update-data'
                             }
                         ]
                     }
