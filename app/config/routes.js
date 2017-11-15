@@ -14,6 +14,7 @@ import DefineIndex from '../pages/indexed-database/define-index/001';
 import CreateData from '../pages/indexed-database/operate-data/create-data';
 import ReadData from '../pages/indexed-database/operate-data/read-data';
 import UpdateData from '../pages/indexed-database/operate-data/update-data';
+import DeleteData from '../pages/indexed-database/operate-data/delete-data';
 
 export default [
 
@@ -29,6 +30,7 @@ export default [
     { path: '/indexed-database/operate-data/create-data', component: CreateData },
     { path: '/indexed-database/operate-data/read-data', component: ReadData },
     { path: '/indexed-database/operate-data/update-data', component: UpdateData },
+    { path: '/indexed-database/operate-data/delete-data', component: DeleteData },
 
     { path: '*', component: NotFound }
 
