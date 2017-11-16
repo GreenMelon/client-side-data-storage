@@ -76,6 +76,14 @@
                                 route: '/indexed-database/open-cursor/001'
                             }
                         ]
+                    },{
+                        name: '使用范围和索引',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/indexed-database/range/001'
+                            }
+                        ]
                     }
                 ]
             }
