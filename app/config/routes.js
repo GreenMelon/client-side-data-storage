@@ -16,6 +16,8 @@ import ReadData from '../pages/indexed-database/operate-data/read-data';
 import UpdateData from '../pages/indexed-database/operate-data/update-data';
 import DeleteData from '../pages/indexed-database/operate-data/delete-data';
 
+import OpenCursor from '../pages/indexed-database/open-cursor/001';
+
 export default [
 
     { path: '/', redirect: '/index' },
@@ -31,6 +33,8 @@ export default [
     { path: '/indexed-database/operate-data/read-data', component: ReadData },
     { path: '/indexed-database/operate-data/update-data', component: UpdateData },
     { path: '/indexed-database/operate-data/delete-data', component: DeleteData },
+
+    { path: '/indexed-database/open-cursor/001', component: OpenCursor },
 
     { path: '*', component: NotFound }
 

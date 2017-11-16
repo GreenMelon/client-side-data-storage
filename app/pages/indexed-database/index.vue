@@ -68,6 +68,14 @@
                                 route: '/indexed-database/operate-data/delete-data'
                             }
                         ]
+                    },{
+                        name: '使用游标获取所有数据',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/indexed-database/open-cursor/001'
+                            }
+                        ]
                     }
                 ]
             }
