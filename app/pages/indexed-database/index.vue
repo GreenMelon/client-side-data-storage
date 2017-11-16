@@ -74,10 +74,11 @@
                             {
                                 name: '001',
                                 route: '/indexed-database/open-cursor/001'
-                            },{
-                                name: '计算数据量',
-                                route: '/indexed-database/open-cursor/count'
-                            }
+                            },
+                            // {
+                            //     name: '计算数据量',
+                            //     route: '/indexed-database/open-cursor/count'
+                            // }
                         ]
                     },{
                         name: '使用范围和索引',
@@ -89,15 +90,15 @@
                         ]
                     },
 
-                    {
-                        name: '存储数组',
-                        instances: [
-                            {
-                                name: '001',
-                                route: '/indexed-database/multi-entry/001'
-                            }
-                        ]
-                    }
+                    // {
+                    //     name: '存储数组',
+                    //     instances: [
+                    //         {
+                    //             name: '001',
+                    //             route: '/indexed-database/multi-entry/001'
+                    //         }
+                    //     ]
+                    // }
                 ]
             }
         }
