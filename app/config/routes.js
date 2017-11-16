@@ -17,6 +17,7 @@ import UpdateData from '../pages/indexed-database/operate-data/update-data';
 import DeleteData from '../pages/indexed-database/operate-data/delete-data';
 
 import OpenCursor from '../pages/indexed-database/open-cursor/001';
+import Range from '../pages/indexed-database/range/001';
 
 export default [
 
@@ -35,6 +36,7 @@ export default [
     { path: '/indexed-database/operate-data/delete-data', component: DeleteData },
 
     { path: '/indexed-database/open-cursor/001', component: OpenCursor },
+    { path: '/indexed-database/range/001', component: Range },
 
     { path: '*', component: NotFound }
 

@@ -93,10 +93,10 @@
                 this.people = [];
 
                 cursor.onsuccess = e => {
-                    let cursor = e.target.result;
-                    if (cursor) {
-                        this.people.push(cursor.value);
-                        cursor.continue();
+                    let res = e.target.result;
+                    if (res) {
+                        this.people.push(res.value);
+                        res.continue();
                     }
                 };
 
