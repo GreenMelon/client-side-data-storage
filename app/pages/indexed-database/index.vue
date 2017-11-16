@@ -84,6 +84,16 @@
                                 route: '/indexed-database/range/001'
                             }
                         ]
+                    },
+
+                    {
+                        name: '存储数组',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/indexed-database/multi-entry/001'
+                            }
+                        ]
                     }
                 ]
             }
