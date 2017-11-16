@@ -27,6 +27,14 @@
                                 route: '/web-sql/open-database/001'
                             }
                         ]
+                    },{
+                        name: '创建表',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/web-sql/create-table/001'
+                            }
+                        ]
                     }
                 ]
             }

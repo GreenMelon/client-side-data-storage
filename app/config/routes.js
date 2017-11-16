@@ -23,6 +23,7 @@ import MultiEntry from '../pages/indexed-database/multi-entry/001';
 
 import WebSql from '../pages/web-sql/index';
 import OpenDatabase from '../pages/web-sql/open-database/001';
+import CreateTable from '../pages/web-sql/create-table/001';
 
 export default [
 
@@ -47,6 +48,7 @@ export default [
 
     { path: '/web-sql', component: WebSql },
     { path: '/web-sql/open-database/001', component: OpenDatabase },
+    { path: '/web-sql/create-table/001', component: CreateTable },
 
     { path: '*', component: NotFound }
 
