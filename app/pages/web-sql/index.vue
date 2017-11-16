@@ -35,6 +35,14 @@
                                 route: '/web-sql/create-table/001'
                             }
                         ]
+                    },{
+                        name: '读写业务',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/web-sql/transaction/001'
+                            }
+                        ]
                     }
                 ]
             }
