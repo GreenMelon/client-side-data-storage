@@ -74,6 +74,9 @@
                             {
                                 name: '001',
                                 route: '/indexed-database/open-cursor/001'
+                            },{
+                                name: '计算数据量',
+                                route: '/indexed-database/open-cursor/count'
                             }
                         ]
                     },{
