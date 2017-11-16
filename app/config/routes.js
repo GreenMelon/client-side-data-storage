@@ -17,6 +17,7 @@ import UpdateData from '../pages/indexed-database/operate-data/update-data';
 import DeleteData from '../pages/indexed-database/operate-data/delete-data';
 
 import OpenCursor from '../pages/indexed-database/open-cursor/001';
+import Count from '../pages/indexed-database/open-cursor/count';
 import Range from '../pages/indexed-database/range/001';
 import MultiEntry from '../pages/indexed-database/multi-entry/001';
 
@@ -37,6 +38,7 @@ export default [
     { path: '/indexed-database/operate-data/delete-data', component: DeleteData },
 
     { path: '/indexed-database/open-cursor/001', component: OpenCursor },
+    { path: '/indexed-database/open-cursor/count', component: Count },
     { path: '/indexed-database/range/001', component: Range },
     { path: '/indexed-database/multi-entry/001', component: MultiEntry },
 
