@@ -5,6 +5,10 @@
 import NotFound from '../pages/404';
 import Index from '../pages/index';
 
+import Cookie from '../pages/cookie/index';
+
+import WebStorage from '../pages/web-storage/index';
+
 import IndexedDB from '../pages/indexed-database/index';
 import CreateDatabase from '../pages/indexed-database/create-database/001';
 import CreateObjectStore from '../pages/indexed-database/create-object-store/001';
@@ -30,6 +34,10 @@ export default [
 
     { path: '/', redirect: '/index' },
     { path: '/index', component: Index },
+
+    { path: '/cookie', component: Cookie },
+
+    { path: '/web-storage', component: WebStorage },
 
     { path: '/indexed-database', component: IndexedDB },
     { path: '/indexed-database/create-database/001', component: CreateDatabase },
