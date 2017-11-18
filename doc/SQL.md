@@ -4,12 +4,12 @@ INSERT INTO tableName (NAME,AGE,HEIGHT,WEIGTH) VALUES (?,?,?,?)
 
 # read
 
-SELECT * FROM tableName WHERE NAME = ?
+SELECT * FROM tableName WHERE GENDER = ?
 
 # update
 
-UPDATE tableName SET AGE = ? WHERE NAME = ?
+UPDATE tableName SET AGE = ? WHERE ID = ?
 
 # delete
 
-DELETE * FROM tableName WHERE NAME = ?
+DELETE * FROM tableName WHERE ID = ?

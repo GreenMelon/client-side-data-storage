@@ -27,8 +27,8 @@
                         name: 'cookie',
                         route: '/cookie'
                     },{
-                        name: 'localStorage',
-                        route: '/localStorage'
+                        name: 'Web Storage',
+                        route: '/web-storage'
                     },{
                         name: 'indexed Database',
                         route: '/indexed-database'

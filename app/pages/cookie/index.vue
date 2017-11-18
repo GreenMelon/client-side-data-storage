@@ -1,6 +1,6 @@
 <template>
     <main>
-        <h1>Client-side Data Storage</h1>
+        <h1>Cookie</h1>
     </main>
 </template>
 
