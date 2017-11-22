@@ -1,15 +1,17 @@
-# create
+# SQL
+
+## CREATE
 
 INSERT INTO tableName (NAME,AGE,HEIGHT,WEIGTH) VALUES (?,?,?,?)
 
-# read
+## READ
 
 SELECT * FROM tableName WHERE GENDER = ?
 
-# update
+## UPDATE
 
 UPDATE tableName SET AGE = ? WHERE ID = ?
 
-# delete
+## DELETE
 
 DELETE * FROM tableName WHERE ID = ?
